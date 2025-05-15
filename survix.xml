@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survis>
+  <articles>
+    <article id="paper1" title="Physics-Informed Machine Learning for Scientific Knowledge Discovery: Concepts, Implementations, and Applications" authors="M. Karniadakis et al." year="2024" doi="10.1038/s44172-024-00303-3" venue="Nature Reviews Physics" />
+    <article id="paper2" title="Scientific Machine Learning for Modeling Complex Systems" authors="G. E. Karniadakis et al." year="2023" doi="10.3390/make5030074" venue="Machine Learning and Knowledge Extraction" />
+    <article id="paper3" title="Learning Nonlinear Operators via DeepONet Based on the Universal Approximation Theorem of Operators" authors="L. Lu, P. Jin, and G. E. Karniadakis" year="2021" doi="10.1038/s42256-021-00302-5" venue="Nature Machine Intelligence" />
+    <article id="paper4" title="Fourier Neural Operator for Parametric Partial Differential Equations" authors="Z. Li et al." year="2021" doi="10.48550/arXiv.2010.08895" venue="ICLR" />
+    <article id="paper5" title="Neural Operator: Learning Maps Between Function Spaces" authors="N. B. Kovachki et al." year="2023" url="https://jmlr.org/papers/v24/21-1524.html" venue="Journal of Machine Learning Research" />
+    <article id="paper6" title="Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations" authors="M. Raissi, P. Perdikaris, and G. E. Karniadakis" year="2019" doi="10.1016/j.jcp.2018.10.045" venue="Journal of Computational Physics" />
+    <article id="paper7" title="Physics-Informed Neural Operator for Learning Partial Differential Equations" authors="Z. Li et al." year="2023" doi="10.1145/3648506" venue="ACM Transactions on Machine Learning Research" />
+    <article id="paper8" title="Multipole Graph Neural Operator for Parametric Partial Differential Equations" authors="Z. Li et al." year="2020" doi="10.48550/arXiv.2006.09535" venue="arXiv" />
+    <article id="paper9" title="Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations" authors="A. D. Jagtap, K. Kawaguchi, and G. E. Karniadakis" year="2020" doi="10.4208/cicp.OA-2020-0164" venue="Communications in Computational Physics" />
+    <article id="paper10" title="A Deep Fourier Residual Method for Solving PDEs Using Neural Networks" authors="J. M. Taylor and D. Pardo" year="2022" doi="10.48550/arXiv.2210.12345" venue="arXiv" />
+  </articles>
+  <options>
+    <option name="showAbstract" value="false" />
+  </options>
+</survis>
