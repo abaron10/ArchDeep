@@ -11,7 +11,8 @@
         "title": "Physics-Informed Machine Learning for Scientific Knowledge Discovery: Concepts, Implementations, and Applications",
         "type": "article",
         "volume": "6",
-        "year": "2024"
+        "year": "2024",
+        "series": "Core Models"
     },
     "Karniadakis, G. E. et al., 2023": {
         "abstract": "The SciML 'road-map' expands the vision of physics-informed machine learning by weaving physical priors, data and Bayesian uncertainty into a single workflow. Implementation details cover operator learners (DeepONet, FNO, PINO) and calibration pipelines. The survey contrasts physics-guided nets with black-box deep learning and mesh-heavy FEM codes. Turbulence, climate and materials datasets illustrate the input spectrum, and the authors quantify impact by collating reported 10²–10⁵ × runtime gains while keeping errors below 1% on industrial benchmarks.",
@@ -25,7 +26,8 @@
         "title": "Scientific Machine Learning for Modeling Complex Systems",
         "type": "article",
         "volume": "5",
-        "year": "2023"
+        "year": "2023",
+        "series": "Optimisation & Training Techniques"
     },
     "Lu, L. and Jin, P. and Karniadakis, G. E., 2021": {
         "abstract": "DeepONet is introduced as a universal operator approximator: a branch network ingests sampled input functions while a trunk network represents query coordinates, their inner product yielding the solution—a design that removes meshing entirely. It builds on universal-approximation theory, beating PINNs on speed and inspiring later operator models. Training uses a few hundred synthetic input-output pairs for ODEs, Burgers' and fractional equations; evaluation reports < 1% L² error and 10³–10⁴ × faster inference than finite differences.",
@@ -39,7 +41,8 @@
         "title": "Learning Nonlinear Operators via DeepONet Based on the Universal Approximation Theorem of Operators",
         "type": "article",
         "volume": "3",
-        "year": "2021"
+        "year": "2021",
+        "series": "Core Models"
     },
     "Li, Z. et al., 2021": {
         "abstract": "This paper replaces spatial convolutions with spectral filtering via the Fourier Neural Operator: inputs go through FFTs, learned complex multipliers, then inverse FFTs, capturing global context at low cost. Compared with DeepONet and PINNs this implementation offers mesh invariance and avoids per-instance optimisation. Synthetic Navier–Stokes and Darcy snapshots on 64² grids form the training data, with tests up to 256²; evaluation shows sub-1% error on unseen parameters and up to 10³ × CFD speed-up.",
@@ -50,7 +53,8 @@
         "publisher": "ICLR",
         "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
         "type": "inproceedings",
-        "year": "2021"
+        "year": "2021",
+        "series": "Core Models"
     },
     "Kovachki, N. B et al., 2023": {
         "abstract": "This paper supplies a unifying neural-operator theory, casting all such models as kernel integral approximators and giving implementation recipes that tie depth, width and spectral cut-off to PDE regularity. They situate their work within operator theory and extend empirical successes of DeepONet and FNO while contrasting with instance-specific PINNs. Benchmarks on large Darcy, Burgers' and Navier–Stokes datasets (multiple grid levels) reveal millisecond inference; ablations on mesh and dataset size measure generalisation and training cost.",
@@ -64,7 +68,8 @@
         "type": "article",
         "url": "https://jmlr.org/papers/v24/21-1524.html",
         "volume": "24",
-        "year": "2023"
+        "year": "2023",
+        "series": "Hybrid Architectures"
     },
     "Raissi, M. and Perdikaris, P. and Karniadakis, G. E., 2019": {
         "abstract": "Physics-Informed Neural Networks are a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. The approach embeds physical laws as soft constraints in the neural network training process, enabling the network to discover solutions that respect fundamental principles. This paper introduces the core methodology, theoretical foundations, and demonstrates applications across various physics domains.",
@@ -77,7 +82,8 @@
         "title": "Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations",
         "type": "article",
         "volume": "378",
-        "year": "2019"
+        "year": "2019",
+        "series": "Hybrid Architectures"
     },
     "Li, Z. et al., 2023": {
         "abstract": "This paper introduces the Physics-Informed Neural Operator (PINO) for learning partial differential equations, combining the strengths of neural operators with physics-informed constraints. The PINO approach balances data-driven learning with physical laws, enabling robust solutions even with limited training data. The method significantly outperforms both standard neural operators and traditional PINNs in terms of accuracy and computational efficiency.",
@@ -91,7 +97,8 @@
         "title": "Physics-Informed Neural Operator for Learning Partial Differential Equations",
         "type": "article",
         "volume": "1",
-        "year": "2023"
+        "year": "2023",
+        "series": "Hybrid Architectures"
     },
     "Li, Z. et al., 2020": {
         "abstract": "The Multipole Graph Neural Operator pushes operator learning to irregular meshes by building graphs over node sets and mixing near-field GNN message passing with fast multipole expansions for far-field physics, yielding O(NlogN) complexity in implementation. It generalises FNO's spectral idea to unstructured domains and borrows acceleration concepts from classical multipole solvers. Training data are unstructured Darcy and Poisson simulations; evaluated on these, the method halves L² error versus baseline GNNs and infers solutions far quicker than FEM.",
@@ -101,7 +108,9 @@
         "keywords": "type:methodology, graph_neural_networks, neural_operators, multipole_methods, irregular_meshes",
         "title": "Multipole Graph Neural Operator for Parametric Partial Differential Equations",
         "type": "article",
-        "year": "2020"
+        "year": "2020",
+        "series": "Domain-Specific Applications"
+        
     },
     "Jagtap, A. D. and Kawaguchi, K. and Karniadakis, G. E, 2020": {
         "abstract": "XPINNs address PINN scalability by decomposing the space-time domain into overlapping blocks, training a local PINN per block and enforcing interface continuity—an implementation echoing classical domain-decomposition FEM. Relative to the original single-network PINN this cuts optimisation depth and improves stability. Synthetic Burgers', Allen–Cahn and KdV datasets with sharp gradients serve as inputs; tests show up to 100 × residual reduction and near-linear parallel speed-up as block count rises.",
@@ -115,7 +124,8 @@
         "title": "Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations",
         "type": "article",
         "volume": "28",
-        "year": "2020"
+        "year": "2020",
+        "series": "Domain-Specific Applications"
     },
     "Nelsen & Stuart, 2024": {
         "abstract": "This paper recasts operator learning using random features: they draw low-rank operator bases and solve one convex ridge-regression problem, delivering a closed-form model with provable 1/sqrt(M) error decay. This trades the deep, non-convex training of DeepONet and FNO for kernel-style guarantees while staying within the operator framework. Standard Burgers' and Darcy benchmarks (≤ 500 samples) form the data; evaluation shows matching accuracy to DeepONet with 10–100 × faster training and ablations confirming theoretical error trends.",
@@ -129,6 +139,7 @@
         "title": "Operator Learning Using Random Features: A Tool for Scientific Computing",
         "type": "article",
         "volume": "46",
-        "year": "2024"
+        "year": "2024",
+        "series": "Optimisation & Training Techniques"
     }
 };
